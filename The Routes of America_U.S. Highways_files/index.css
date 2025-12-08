@@ -1,0 +1,40 @@
+:root{
+    --routes-of-america-navbar-links-hover-color: #ffa500;
+    --routes-of-america-navbar-links-visited-color: #ffff00;
+}
+#background_us_image, #main_highway_title_image{
+    margin-left: auto;
+    margin-right: auto;
+}
+#background_interstate_sign{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.webpage_titles{
+    position: absolute;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-size: 25px;
+}
+#main_page_interstate_highway_pictures, #main_page_state_route_pictures{
+    float: right;
+}
+#main_page_us_highway_pictures, #main_page_other_routes_and_highways_pictures{
+    float: left;
+}
+#routes_of_america_navbar ul{
+    list-style-type: none;
+    padding: 5px 0;
+}
+#routes_of_america_navbar li{
+    padding: 5px 0;
+}
+#routes_of_america_navbar li a{
+    padding: 5px 10px;
+}
+#routes_of_america_navbar li a:hover, #copyright_link:hover, #web_portfolio_link:hover{
+    color: var(--routes-of-america-navbar-links-hover-color);
+}
+#routes_of_america_navbar li a:visited, #copyright_link:visited, #web_portfolio_link:visited{
+    color: var(--routes-of-america-navbar-links-visited-color);
+}
