@@ -53,8 +53,6 @@
 #us_highway_signage_history_table, td, th{
     border: 1px solid black;
     position: relative;
-    left: 200px;
-    top: 300px;
 }
 #address_box{
     left: 50px;
