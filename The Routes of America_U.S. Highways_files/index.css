@@ -53,9 +53,38 @@
 #us_highway_signage_history_table, td, th{
     border: 1px solid black;
 }
-#routes_of_america_navbar > a:hover, #copyright_link:hover, #web_portfolio_link:hover{
+#address_box{
+    left: 50px;
+    top: 100px;
+}
+#city_box{
+    left: 150px;
+    top: 100px;
+}
+#state_box{
+    left: 250px;
+    top: 100px;
+}
+#zip_code_box{
+    left: 350px;
+    top: 100px;
+}
+#phone_number_box{
+    left: 100px;
+    top: 250px;
+}
+#email_box{
+    left: 200px;
+    top: 250px;
+}
+.routes_of_america_footer{
+    position: fixed;
+}
+#routes_of_america_navbar > a:hover, #copyright_link:hover, #web_portfolio_link:hover, 
+#email_link:hover{
     color: orange;
 }
-#routes_of_america_navbar > a:visited, #copyright_link:visited, #web_portfolio_link:visited{
+#routes_of_america_navbar > a:visited, #copyright_link:visited, #web_portfolio_link:visited, 
+#email_link:visited{
     color: yellow;
 }
