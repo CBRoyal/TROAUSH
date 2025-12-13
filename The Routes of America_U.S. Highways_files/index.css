@@ -8,16 +8,19 @@
 .title_lines{
     position: absolute;
     left: 200px;
-    top: 40px;
-    rotate: -35deg;
-    font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px; 
+    top: 40px; 
 }
 .first{
+    rotate: -35deg;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-size: 15px;
     animation-name: bringInTitle;
     animation-duration: 3s;
 }
 .second{
+    rotate: -35deg;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-size: 15px;
     animation-name: bringInTitle;
     animation-duration: 3s;
     animation-delay: 1s;
