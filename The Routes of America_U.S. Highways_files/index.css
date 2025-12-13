@@ -64,6 +64,8 @@ td, th{
 }
 #help_button{
     border: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 #address_box{
     left: 50px;
