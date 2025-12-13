@@ -129,14 +129,13 @@ td, th{
     color: yellow;
 }
 @media (max-width: 700px){
-    #main_page_interstate_highway_container, #main_page_state_route_container,
-    #main_page_us_highway_container, #main_page_other_routes_and_highways_container{
+    #numbering_system_us_highway_container, #signage_us_highway_container,
+    #divided_us_highway_container, #history_us_highway_container{
         flex-direction: column;
     }
 }
 @media (max-width: 500px){
-    #main_page_interstate_highway_pictures, #main_page_us_highway_pictures, #main_page_state_route_pictures, 
-    #main_page_other_routes_and_highways_pictures{
+    #numbering_system_us_highway_pictures, #divided_us_highway_pictures{
         flex-direction: column;
     }
 }
