@@ -46,16 +46,16 @@
 #history_us_highway_container{
     text-wrap: wrap;
 }
+div.tablecontainer{
+    overflow-x: auto;
+    overflow-y: auto;
+}
 #us_highway_signage_history_table, td, th{
     border: 1px solid black;
     border-collapse: collapse;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
-div.tablecontainer{
-    overflow-x: auto;
-    overflow-y: auto;
 }
 #us_highway_signage_history_table{
     width: 100%;
