@@ -55,6 +55,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+div.tablecontainer{
+    overflow-x: auto;
+    overflow-y: auto;
+}
 #us_highway_signage_history_table{
     width: 100%;
     height: 100%;
