@@ -44,6 +44,7 @@
 }
 #us_highway_signage_history_table, td, th{
     border: 1px solid black;
+    border-collapse: collapse;
     position: relative;
     margin-left: auto;
     margin-right: auto;
