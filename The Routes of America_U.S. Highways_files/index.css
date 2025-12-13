@@ -48,7 +48,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-#first_main_us_highway_sign, #main_interstate_highway_image, #main_us_highway_sign,
+#first_main_us_highway_sign, #second_main_us_highway_sign, #blank_us_highway_sign,
 #main_us_highway_image, #main_state_route_sign, #main_state_route_image, #main_county_route_sign, 
 #main_forest_highway_image{
     width: 30vw;
