@@ -132,26 +132,15 @@ td, th{
     color: yellow;
 }
 @media (max-width: 700px){
-    #main_interstate_highway_sign, #main_interstate_highway_image, #main_us_highway_sign,
-    #main_us_highway_image, #main_state_route_sign, #main_state_route_image, #main_county_route_sign, 
-    #main_forest_highway_image{
-    flex-direction: row;
-    text-wrap: wrap;
+    #main_page_interstate_highway_container, #main_page_state_route_container,
+    #main_page_us_highway_container, #main_page_other_routes_and_highways_container{
+        flex-direction: column;
     }
 }
 @media (max-width: 500px){
-    #main_interstate_highway_sign, #main_interstate_highway_image, #main_us_highway_sign,
-    #main_us_highway_image, #main_state_route_sign, #main_state_route_image, #main_county_route_sign, 
-    #main_forest_highway_image{
-        flex-direction: column;
-        text-wrap: wrap;
-        width: 20vw;
-        height: 20vh;
-    }
     #main_page_interstate_highway_pictures, #main_page_us_highway_pictures, #main_page_state_route_pictures, 
     #main_page_other_routes_and_highways_pictures{
         flex-direction: column;
-        text-wrap: wrap;
     }
 }
 @keyframes bringInTitle{
