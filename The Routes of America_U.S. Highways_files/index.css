@@ -76,6 +76,9 @@ td, th{
     width: 20vw;
     height: 35vh;
 }
+#us_highway_history_image{
+    filter: grayscale(60%);
+}
 #help_button{
     border: 10px solid black;
     margin-left: auto;
