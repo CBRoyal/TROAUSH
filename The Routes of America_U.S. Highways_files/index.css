@@ -1,31 +1,23 @@
-#background_us_image{ 
+.routes_of_america_logo{
     position: relative;
     width: 20vw;
     height: 20vh;
-    left: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#background_us_sign{
+.title_lines{
     position: absolute;
-    width: 10vw;
-    height: 10vh;
-    left: 70px;
-    top: 10px;
-}
-#first_title_line{
-    left: 200px;
-    top: 20px;
-    rotate: -35deg;
-    font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px;
-    animation-name: bringInTitle;
-    animation-duration: 3s;
-}
-#second_title_line{
     left: 200px;
     top: 40px;
     rotate: -35deg;
     font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px;
+    font-size: 15px; 
+}
+.first{
+    animation-name: bringInTitle;
+    animation-duration: 3s;
+}
+.second{
     animation-name: bringInTitle;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -55,6 +47,12 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
+}
+#first_main_us_highway_sign, #main_interstate_highway_image, #main_us_highway_sign,
+#main_us_highway_image, #main_state_route_sign, #main_state_route_image, #main_county_route_sign, 
+#main_forest_highway_image{
+    width: 30vw;
+    height: 30vh;
 }
 #help_button{
     border: 10px solid black;
@@ -93,6 +91,20 @@
 #routes_of_america_navbar > a:visited, #copyright_link:visited, #web_portfolio_link:visited, 
 #email_link:visited{
     color: yellow;
+}
+@media all and (max-width: 700px){
+    #main_page_interstate_highway_container,#main_page_us_highway_container, #main_page_state_route_container, 
+    #main_page_other_routes_and_highways_container{
+        flex-direction: row;
+        text-wrap: wrap;
+}
+}
+@media all and (max-width: 500px){
+    #main_page_interstate_highway_pictures, #main_page_us_highway_pictures, #main_page_state_route_pictures, 
+    #main_page_other_routes_and_highways_pictures{
+        flex-direction: column;
+        text-wrap: wrap;
+    }
 }
 @keyframes bringInTitle{
     0% {transform: translate(-10px, 45px) rotate(-35deg);}
