@@ -90,13 +90,19 @@ nav ul{
 .modal-body{
     color: black;
 }
-a{
+#email-link,
+#copyright-link,
+#webportfolio-link{
     color: green;
 }
-a:hover{
+#email-link:hover,
+#copyright-link:hover,
+#webportfolio-link:hover{
     color: orange;
 }
-a:visited{
+#email-link:visited,
+#copyright-link:visited,
+#webportfolio-link:visited{
     color: red;
 }
 @media (max-width: 700px){
