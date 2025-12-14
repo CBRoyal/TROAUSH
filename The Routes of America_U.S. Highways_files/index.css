@@ -91,13 +91,13 @@ nav ul{
     color: black;
 }
 a{
-    color: white;
+    color: green;
 }
 a:hover{
     color: orange;
 }
 a:visited{
-    color: yellow;
+    color: red;
 }
 @media (max-width: 700px){
     #numbering_system_us_highway_container, #signage_us_highway_container,
