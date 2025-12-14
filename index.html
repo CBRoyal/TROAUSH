@@ -206,7 +206,8 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                        <div class="form-group row name_box">
+                                <form class="container-fluid">
+                                    <div class="form-group row name_box">
                                         <label for="name" class="col-form-label">Name:</label>
                                         <input type="text" class="form-control" id="name" name="name" autocomplete="name">
                                     </div>
@@ -238,7 +239,11 @@
                                             <input type="text" class="form-control" id="email" name="email"  autocomplete="email">
                                         </div>
                                     </div>
-                                  
+                                    <div class="form-group row report_box">
+                                        <label for="report" class="col-form-label">What's the Roadblock:</label>
+                                        <textarea class="form-control" id="report" name="report" rows="20" cols="50"></textarea>
+                                    </div>   
+                                </form>          
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
