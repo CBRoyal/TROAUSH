@@ -206,37 +206,39 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form>
-                                    <div class="form-group name_box">
+                                        <div class="form-group row name_box">
                                         <label for="name" class="col-form-label">Name:</label>
                                         <input type="text" class="form-control" id="name" name="name" autocomplete="name">
                                     </div>
-                                    <div class="form-group address_box">
+                                    <div class="form-group row address_box">
                                         <label for="address" class="col-form-label">Address:</label>
                                         <input type="text" class="form-control" id="address" name="address" autocomplete="street-address">
                                     </div>
-                                    <div class="form-group city_state_zipcode_box">
-                                        <label for="city" class="col-form-label">City:</label>
-                                        <input type="text" class="form-control" id="city" name="city" autocomplete="address-level2">
- 
-                                        <label for="state" class="col-form-label">State:</label>
-                                        <input type="text" class="form-control" id="state" name="state" autocomplete="address-level1">
-
-                                        <label for="zip_code" class="col-form-label">Zip Code:</label>
-                                        <input type="text" class="form-control" id="zip_code" name="zip_code" autocomplete="postal-code">
+                                    <div class="form-group row city_state_zipcode_box">
+                                        <div class="col-sm">
+                                            <label for="city" class="col-form-label">City:</label>
+                                            <input type="text" class="form-control" id="city" name="city" autocomplete="address-level2">
+                                        </div>
+                                        <div class="col-sm">
+                                            <label for="state" class="col-form-label">State:</label>
+                                            <input type="text" class="form-control" id="state" name="state" autocomplete="address-level1">
+                                        </div>
+                                        <div class="col-sm">
+                                            <label for="zip_code" class="col-form-label">Zip Code:</label>
+                                            <input type="text" class="form-control" id="zip_code" name="zip_code" autocomplete="postal-code">
+                                        </div>
                                     </div>
-                                    <div class="form-group phoneNumber_email_box">
-                                        <label for="phone_number" class="col-form-label">Phone Number:</label>
-                                        <input type="text" class="form-control" id="phone_number" name="phone_number"  autocomplete="tel-national">
-
-                                        <label for="email" class="col-form-label">Email:</label>
-                                        <input type="text" class="form-control" id="email" name="email"  autocomplete="email">
+                                    <div class="form-group row phoneNumber_email_box">
+                                        <div class="col-md">
+                                            <label for="phone_number" class="col-form-label">Phone Number:</label>
+                                            <input type="text" class="form-control" id="phone_number" name="phone_number"  autocomplete="tel-national">
+                                        </div>
+                                        <div class="col-md">
+                                            <label for="email" class="col-form-label">Email:</label>
+                                            <input type="text" class="form-control" id="email" name="email"  autocomplete="email">
+                                        </div>
                                     </div>
-                                    <div class="form-group report_box">
-                                        <label for="report" class="col-form-label">What's the Roadblock:</label>
-                                        <textarea class="form-control" id="report" name="report" rows="20" cols="50"></textarea>
-                                    </div>   
-                                </form>
+                                  
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
