@@ -262,7 +262,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send Form</button>
+                                <button type="button" class="btn btn-primary"form="helpForm">Send Form</button>
                             </div>
                         </div>
                     </div>
@@ -278,5 +278,24 @@
                 <p><a id="webportfolio-link" href="https://cbroyal.github.io/cbwebportfolio/">https://cbroyal.github.io/cbwebportfolio/</a></p>
             </div>
         </footer>
+        <!--Script code that makes the alert message pop up successfully after the contact form has been submitted.-->
+        <script>
+        (()=>{
+            const f= document.querySelector("#contact-modal form");
+            if(! f) return;
+            f.id= "helpForm";
+            const b= document.querySelector("#contact-modal .modal-footer .btn .btn-primary");
+            if(b) {b.type="submit";
+                    b.removeAttribute("data-bs-dismiss");
+                    b.setAttribute("form", "helpForm");
+            }
+            f.addEventListener("submit", e =>(
+                e.preventDefault(),
+                bootstrap.Collapse.getOrCreateInstance(document.getElementById("conf-success-alert")).show(),
+                bootstrap.Modal.getOrCreateInstance(document.getElementById("contact-modal")).hide(),
+                f.reset()
+            ));
+        })();
+        </script>
     </body>
 </html>
