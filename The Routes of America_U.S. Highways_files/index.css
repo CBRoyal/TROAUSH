@@ -31,14 +31,12 @@
     margin-right: auto;
 }
 #numbering_system_us_highway_container{
-    flex-direction: row-reverse;
     text-wrap: wrap;
 }
 #signage_us_highway_container{
     text-wrap: wrap;
 }
 #divided_us_highway_container{
-    flex-direction: row-reverse;
     text-wrap: wrap;
 }
 #history_us_highway_container{
