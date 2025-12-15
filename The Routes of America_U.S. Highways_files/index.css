@@ -75,11 +75,6 @@ td, th{
 #us_highway_history_image{
     filter: grayscale(60%);
 }
-#help_button{
-    border: 10px solid black;
-    margin-left: auto;
-    margin-right: auto;
-}
 nav ul{
     list-style-type: none;
     padding: 10px 0;
