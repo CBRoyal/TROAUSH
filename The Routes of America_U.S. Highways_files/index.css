@@ -96,13 +96,13 @@ nav ul{
 #webportfolio-link:visited{
     color: red;
 }
-@media (max-width: 700px){
+@media screen and (max-width: 800px){
     #numbering_system_us_highway_container, #signage_us_highway_container,
     #divided_us_highway_container, #history_us_highway_container{
         flex-direction: column;
     }
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     #numbering_system_us_highway_pictures, #divided_us_highway_pictures{
         flex-direction: column;
     }
