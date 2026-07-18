@@ -1,3 +1,19 @@
+(()=>{
+            const f= document.querySelector("#contact-modal form");
+            if(! f) return;
+            f.id= "helpForm";
+            const b= document.querySelector("#contact-modal .modal-footer .btn .btn-primary");
+            if(b) {b.type="submit";
+                    b.removeAttribute("data-bs-dismiss");
+                    b.setAttribute("form", "helpForm");
+            }
+            f.addEventListener("submit", e =>(
+                e.preventDefault(),
+                bootstrap.Collapse.getOrCreateInstance(document.getElementById("conf-success-alert")).show(),
+                bootstrap.Modal.getOrCreateInstance(document.getElementById("contact-modal")).hide(),
+                f.reset()
+            ));
+        })();
 function showAlert(alertId){
     const messageAlert= document.querySelector("#", alertId);
     const collapse= new bootstrap.Collapse(messageAlert);
