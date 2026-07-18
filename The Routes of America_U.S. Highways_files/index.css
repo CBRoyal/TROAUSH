@@ -1,9 +1,10 @@
 .routes_of_america_logo{
     position: relative;
+    margin-left: 470px;
 }
 .first_title_line{
     position: absolute;
-    left: 100px;
+    left: 570px;
     top: 90px;
     z-index: 2;
     rotate: -35deg;
@@ -14,7 +15,7 @@
 }
 .second_title_line{
     position: absolute;
-    left: 120px;
+    left: 570px;
     top: 110px;
     z-index: 1;
     rotate: -35deg;
