@@ -1,6 +1,10 @@
 :root{
+    --routes-of-america-navbar-link-color: #ffffff;
+    --routes-of-america-navbar-link-hover-color: #32cd32;
     --routes-of-america-modal-color: #000000;
-    --routes-of-america-us-highways-page-footer-link-color: green;
+    --routes-of-america-us-highways-page-footer-link-color: #008000;
+    --routes-of-america-us-highways-page-footer-link-hover-color: #ffa500;
+    --routes-of-america-us-highways-page-footer-link-active-color: #ff0000;
 }
 .routes_of_america_logo{
     position: relative;
