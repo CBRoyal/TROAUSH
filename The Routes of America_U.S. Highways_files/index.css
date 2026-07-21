@@ -48,7 +48,8 @@
 #history_us_highway_container{
     text-wrap: wrap;
 }
-#us_highway_signage_history_table, td, th{
+#us_highway_signage_history_table th,
+#us_highway_signage_history_table td{
     border: 1px solid var(--routes-of-america-modal-color);
     padding: 5px;
 }
