@@ -92,6 +92,10 @@ td, th{
     display: flex;
     flex-direction: column;
 }
+#routes_of_america_computer_navbar .row .col-md a:hover,
+#routes_of_america_tablet_and_phone_navbar a:hover{
+    color: var(--routes-of-america-navbar-link-hover-color);
+}
 .modal-header,
 .modal-body{
     color: var(--routes-of-america-modal-color);
