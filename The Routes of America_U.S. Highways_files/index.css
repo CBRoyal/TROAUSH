@@ -90,17 +90,17 @@ nav ul{
 #email-link,
 #copyright-link,
 #webportfolio-link{
-    color: green;
+    color: var(--routes-of-america-us-highways-page-footer-link-color);
 }
 #email-link:hover,
 #copyright-link:hover,
 #webportfolio-link:hover{
-    color: orange;
+    color: var(--routes-of-america-us-highways-page-footer-link-hover-color);
 }
 #email-link:active,
 #copyright-link:active,
 #webportfolio-link:active{
-    color: red;
+    color: var(--routes-of-america-us-highways-page-footer-link-active-color);
 }
 @media screen and (max-width: 800px){
     #numbering_system_us_highway_container, #signage_us_highway_container,
