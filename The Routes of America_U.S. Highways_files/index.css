@@ -50,7 +50,7 @@
 }
 #us_highway_signage_history_table th,
 #us_highway_signage_history_table td{
-    border: 1px solid var(--routes-of-america-modal-color);
+    border: 5px solid var(--routes-of-america-modal-color);
     padding: 5px;
 }
 #routes_of_america_us_highway_main_content, #numbering_system_us_highway_pictures,
