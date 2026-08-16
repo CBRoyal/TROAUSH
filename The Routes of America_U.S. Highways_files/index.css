@@ -50,7 +50,7 @@
     text-wrap: wrap;
 }
 #us_highway_signage_history_table{
-    margin-left: 350px;
+    margin-left: 540px;
 }
 #us_highway_signage_history_table th, #us_highway_table th, #us_highway_signage_history_table td,
 #us_highway_table td{
@@ -63,7 +63,10 @@
     gap: 5px;
 }
 #us_highway_table_container{
-    margin-left: 100px;
+    margin-left: 200px;
+}
+#us_highway_table_container h3{
+    margin-left: 30px;
 }
 #us_highway_history_image{
     filter: grayscale(60%);
