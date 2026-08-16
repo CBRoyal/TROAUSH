@@ -27,6 +27,6 @@ modalYesButton.addEventListener("click", function(){
 });
 const button = document.getElementById("openbtn");
 const menu = document.getElementById("routes_of_america_tablet_and_phone_navbar_menu");
-button.addEventListener("click", () =>{
-    menu.classList.toggle("active");
+button.addEventListener("click", () => {
+    menu.classList.toggle("open");
 });
