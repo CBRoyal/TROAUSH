@@ -93,6 +93,19 @@
 #routes_of_america_tablet_and_phone_navbar a:hover{
     color: var(--routes-of-america-navbar-link-hover-color);
 }
+#openbtn{
+    font-size: 70px;
+    cursor: pointer;
+    position: fixed;
+    display: none;
+    color: var(--routes-of-america-navbar-link-color);
+    bottom: 130px;
+    background-color: transparent;
+    border: none;
+}
+#openbtn:hover{
+    color: var(--routes-of-america-us-highways-page-footer-link-hover-color);
+}
 #help-button{
     margin-left: 570px;
 }
